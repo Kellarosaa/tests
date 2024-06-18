@@ -13,6 +13,12 @@ html<!DOCTYPE html>
             margin: 0;
         }
 
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
         .long-button {
             display: inline-block;
             padding: 10px 30px;
@@ -31,6 +37,12 @@ html<!DOCTYPE html>
     </style>
 </head>
 <body>
-    <a href="https://example.com" class="long-button">Click Me</a>
+    <div class="button-container">
+        <a href="https://example.com" class="long-button">Click Me</a>
+        <a href="https://example.com" class="long-button">Click Me</a>
+        <a href="https://example.com" class="long-button">Click Me</a>
+        <a href="https://example.com" class="long-button">Click Me</a>
+        <a href="https://example.com" class="long-button">Click Me</a>
+    </div>
 </body>
 </html>
